@@ -1,0 +1,29 @@
+{
+  "name": "admonebot",
+  "version": "1.0.0",
+  "description": "Admone Telegram Chatbot",
+  "main": "app.js",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "node-telegram-bot-api": "^0.27.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/icemango/Admone.git"
+  },
+  "keywords": [
+    "telegram"
+  ],
+  "author": "icemango",
+  "license": "CC-BY-NC-4.0",
+  "bugs": {
+    "url": "https://github.com/icemango/Admone/issues"
+  },
+  "homepage": "https://github.com/icemango/Admone#readme"
+}
