@@ -3,7 +3,6 @@ const config = require('dotenv').config({'path': 'config.env'});
 
 const bot = new TelegramBot(process.env.API_TOKEN, {polling: true});
 
-
 bot.on('message', (msg) => {
     const chatId = msg.chat.id;
 
